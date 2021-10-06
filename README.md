@@ -5,7 +5,7 @@ This interpreter is a tool that cab be used to visualise the outputs of the [MBX
 Instructions
 
 1. Download the repository [here](https://github.com/darrrenohd/MBXASPY_interpreter/archive/refs/heads/main.zip)
-2. Insert the following output files into the repository:
+2. Insert the following output files from your MBXASPY calculation into the downloaded repository:
    - spec_xas_all.dat
    - spec0_i_all.dat
    - spec0_f_all.dat
