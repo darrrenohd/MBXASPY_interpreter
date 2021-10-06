@@ -68,10 +68,3 @@ plt.legend()
 
 plt.show()
 xas.savefig('xas.png')
-
-
-"""
-with pd.option_context("display.precision", 20):
-    df = pd.read_csv("spec_xas_alle.csv", delimiter=" ", float_precision=None)
-    df.to_csv("spec_xas_all.csv", float_format='%.20f')
-"""
