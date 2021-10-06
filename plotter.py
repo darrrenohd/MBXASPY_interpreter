@@ -1,5 +1,4 @@
 import csv
-import glob
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -26,7 +25,7 @@ with open("spec0_f_all.dat") as f_infile, open("spec0_f_all.csv", "w") as f_outf
     for line in f_infile.read().splitlines():
         csv_writer.writerow([line, prev])
 
-#Plotting csv file
+#Plotting each .csv file and saving as 'xas.png'
 
 x_xas = []
 y_xas = []
