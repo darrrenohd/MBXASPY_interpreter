@@ -1,16 +1,3 @@
-#MBXAS utility for finding dominant orbitals from a spectrum
-#Subhayan Roychoudhury, LBNL, April 2020
-#----------------------------------------------------------------------------------------------------
-# USAGE INSTRUCTION :
-#python MBXAS_pp_utility.py ElementIndex:Spin1_Kpoint1_Direction1,Spin2_Kpoint2_Direction2... ElementIndex:Spin1_Kpoint1_Direction1,Spin2_Kpoint2_Direction2... ...
-#Different excited species must be separated by space
-#Different (spin_kpoint_direction) combination for the same excited species must be separated by comma
-#Note that indices for k-point and spin start from 0
-#Orbital-index starts from 1 in the output
-#----------------------------------------------------------------------------------------------------
-# USAGE EXAMPLE :
-#python MBXAS_pp_utility.py Li1:0_0_x,0_1_y,0_2_x,0_124_z,1_0_x,1_20_x,1_124_y Li69:0_0_x,0_124_y,1_0_x,1_124_z
-#----------------------------------------------------------------------------------------------------
 import sys
 import csv
 import glob
