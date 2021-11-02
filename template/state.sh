@@ -4,7 +4,7 @@
 #SBATCH -t 01:00:00
 #SBATCH -e state.err
 #SBATCH -o state.out
-#SBATCH -J Ncheck
+#SBATCH -J Job_Name
 #SBATCH -n 32
 #SBATCH -N 4
 
