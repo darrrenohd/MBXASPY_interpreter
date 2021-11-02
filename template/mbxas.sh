@@ -4,7 +4,7 @@
 #SBATCH -t 24:00:00
 #SBATCH -e mbxas.err
 #SBATCH -o mbxas.out
-#SBATCH -J test 
+#SBATCH -J Job_Name 
 #SBATCH  -N 1
 #SBATCH  -n 10
 
