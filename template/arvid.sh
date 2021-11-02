@@ -4,7 +4,7 @@
 #SBATCH -t 24:00:00
 #SBATCH -e arvid.err
 #SBATCH -o arvid.out
-#SBATCH -J Ncheck
+#SBATCH -J Job_Name
 #SBATCH -n 60
 #SBATCH -N 3
 
