@@ -15,7 +15,7 @@ XYZFILES="*.xyz"
 
 IBRAV=0
 ################################################
-MOLNAME="cubane"
+MOLNAME="molecule"
 
 ################################################
 
@@ -111,5 +111,5 @@ PW_POSTFIX=""
 DOWHAT="XAS"
 
 state_type='cube'
-states=(C1#22 C1#23 C1#28 C1#30 C1#31 C1#64 C1#127)
-PARA_NPROCS_PER_ATOM=20
+states=()
+#PARA_NPROCS_PER_ATOM=20
